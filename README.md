@@ -25,4 +25,4 @@ To Charting the results:
 The last result is stored in [result.json](https://github.com/masterklavi/php-cache-benchmark/blob/master/result.json)
 
 ## Charts
-The Charts of the last result is stored in [charts/](https://github.com/masterklavi/php-cache-benchmark/tree/master/charts) folder
+The Charts of the last result is stored in [charts/](https://github.com/masterklavi/php-cache-benchmark/tree/master/charts) folder. All the charts was created by the pChart library <http://www.pchart.net/>
