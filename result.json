@@ -1,0 +1,1264 @@
+{
+    "VERSION": 2,
+    "CONCURRENCY": [
+        1,
+        5,
+        10,
+        20,
+        50,
+        100,
+        150
+    ],
+    "ITERATIONS": 1000,
+    "TIME": 10,
+    "RESULT": {
+        "Cache\\File": {
+            "1": {
+                "string": {
+                    "set": 1926.0972310111,
+                    "get": 38194.658639618,
+                    "remove": 86470.589852251
+                },
+                "stringExpires": {
+                    "set": 2510.8564993613,
+                    "get_notexpired": 38087.447672148,
+                    "get_expired": 34465.179286236
+                },
+                "longString": {
+                    "set": 2654.2297600184,
+                    "get": 36713.654180081,
+                    "remove": 92194.578594083
+                },
+                "longStringExpires": {
+                    "set": 2257.7489049658,
+                    "get_notexpired": 37521.457809631,
+                    "get_expired": 32165.612743487
+                }
+            },
+            "5": {
+                "string": {
+                    "set": 1263.9410671277,
+                    "get": 80465.440481504,
+                    "remove": 173342.70104064
+                },
+                "stringExpires": {
+                    "set": 1317.1320181865,
+                    "get_notexpired": 81636.080765982,
+                    "get_expired": 89356.610858932
+                },
+                "longString": {
+                    "set": 1305.279323845,
+                    "get": 77217.760147674,
+                    "remove": 176906.17987954
+                },
+                "longStringExpires": {
+                    "set": 1283.9556240282,
+                    "get_notexpired": 74749.054566063,
+                    "get_expired": 70517.392693219
+                }
+            },
+            "10": {
+                "string": {
+                    "set": 1102.9412567126,
+                    "get": 82863.052750739,
+                    "remove": 182725.3023963
+                },
+                "stringExpires": {
+                    "set": 1168.5726174774,
+                    "get_notexpired": 83529.24307359,
+                    "get_expired": 104149.90141985
+                },
+                "longString": {
+                    "set": 1125.2666043335,
+                    "get": 76096.879510214,
+                    "remove": 178798.29314145
+                },
+                "longStringExpires": {
+                    "set": 1250.949794723,
+                    "get_notexpired": 74339.807907382,
+                    "get_expired": 73889.366005075
+                }
+            },
+            "20": {
+                "string": {
+                    "set": 1035.6691160458,
+                    "get": 84036.084410673,
+                    "remove": 179804.68984439
+                },
+                "stringExpires": {
+                    "set": 1099.5064297459,
+                    "get_notexpired": 93856.135730213,
+                    "get_expired": 182300.40877708
+                },
+                "longString": {
+                    "set": 1092.1019128547,
+                    "get": 83267.733808736,
+                    "remove": 240923.1847346
+                },
+                "longStringExpires": {
+                    "set": 1001.8976989208,
+                    "get_notexpired": 79003.951794883,
+                    "get_expired": 268726.97101816
+                }
+            },
+            "50": {
+                "string": {
+                    "set": 1837.8110569913,
+                    "get": 136016.27666702,
+                    "remove": 606127.30930195
+                },
+                "stringExpires": {
+                    "set": 1773.1743259314,
+                    "get_notexpired": 142016.40553208,
+                    "get_expired": 851932.85776962
+                },
+                "longString": {
+                    "set": 1865.1091954736,
+                    "get": 128013.04820499,
+                    "remove": 731645.47246498
+                },
+                "longStringExpires": {
+                    "set": 1858.453776617,
+                    "get_notexpired": 107289.20248512,
+                    "get_expired": 811779.82503677
+                }
+            },
+            "100": {
+                "string": {
+                    "set": 3628.9186549973,
+                    "get": 420381.72384105,
+                    "remove": 1468043.8351178
+                },
+                "stringExpires": {
+                    "set": 3500.8537365771,
+                    "get_notexpired": 710868.86148892,
+                    "get_expired": 1874725.2256078
+                },
+                "longString": {
+                    "set": 3577.1072348658,
+                    "get": 292422.52480252,
+                    "remove": 1537185.9149148
+                },
+                "longStringExpires": {
+                    "set": 3637.5469873221,
+                    "get_notexpired": 307603.35390963,
+                    "get_expired": 1797268.7266198
+                }
+            },
+            "150": {
+                "string": {
+                    "set": 5480.4047613191,
+                    "get": 621107.84339858,
+                    "remove": 3231508.3902183
+                },
+                "stringExpires": {
+                    "set": 5490.5562949413,
+                    "get_notexpired": 1693309.0744668,
+                    "get_expired": 1439056.8924937
+                },
+                "longString": {
+                    "set": 3441.1168231917,
+                    "get": 489890.34913545,
+                    "remove": 1704798.3438289
+                },
+                "longStringExpires": {
+                    "set": 3378.2229265461,
+                    "get_notexpired": 1488048.9310523,
+                    "get_expired": 1535156.7132313
+                }
+            }
+        },
+        "Cache\\MySQL": {
+            "1": {
+                "string": {
+                    "set": 12666.407905378,
+                    "get": 8841.8697515012,
+                    "remove": 11728.700025812
+                },
+                "stringExpires": {
+                    "set": 12478.590979412,
+                    "get_notexpired": 8684.4210934973,
+                    "get_expired": 8432.5076347465
+                },
+                "longString": {
+                    "set": 6112.350875909,
+                    "get": 8077.2739624902,
+                    "remove": 11841.226267218
+                },
+                "longStringExpires": {
+                    "set": 5980.4679298551,
+                    "get_notexpired": 7901.8221714919,
+                    "get_expired": 7690.9256771934
+                }
+            },
+            "5": {
+                "string": {
+                    "set": 20015.35553335,
+                    "get": 14518.114041914,
+                    "remove": 15551.033414535
+                },
+                "stringExpires": {
+                    "set": 20065.694359528,
+                    "get_notexpired": 14208.287521834,
+                    "get_expired": 14232.754385824
+                },
+                "longString": {
+                    "set": 11921.875704381,
+                    "get": 13825.814874483,
+                    "remove": 15517.378648391
+                },
+                "longStringExpires": {
+                    "set": 11889.134402223,
+                    "get_notexpired": 13466.205676792,
+                    "get_expired": 15829.767679331
+                }
+            },
+            "10": {
+                "string": {
+                    "set": 17640.085485548,
+                    "get": 14609.672406893,
+                    "remove": 13719.793794953
+                },
+                "stringExpires": {
+                    "set": 17177.774210142,
+                    "get_notexpired": 14279.848921705,
+                    "get_expired": 15762.750592282
+                },
+                "longString": {
+                    "set": 10471.968940504,
+                    "get": 13657.338952603,
+                    "remove": 13462.935347864
+                },
+                "longStringExpires": {
+                    "set": 10608.87868941,
+                    "get_notexpired": 13452.240510487,
+                    "get_expired": 16130.229277628
+                }
+            },
+            "20": {
+                "string": {
+                    "set": 16857.458626895,
+                    "get": 14365.05674083,
+                    "remove": 13449.718086251
+                },
+                "stringExpires": {
+                    "set": 16757.426596351,
+                    "get_notexpired": 14193.46746252,
+                    "get_expired": 16016.31096325
+                },
+                "longString": {
+                    "set": 9983.8737847987,
+                    "get": 13353.002699617,
+                    "remove": 13485.417497588
+                },
+                "longStringExpires": {
+                    "set": 9662.1276310487,
+                    "get_notexpired": 13190.458586802,
+                    "get_expired": 15996.991532583
+                }
+            },
+            "50": {
+                "string": {
+                    "set": 14386.348708186,
+                    "get": 13262.447726376,
+                    "remove": 12165.941626393
+                },
+                "stringExpires": {
+                    "set": 14020.71813767,
+                    "get_notexpired": 14145.35119444,
+                    "get_expired": 14787.78458164
+                },
+                "longString": {
+                    "set": 8803.1486206735,
+                    "get": 11535.701480984,
+                    "remove": 12173.55738563
+                },
+                "longStringExpires": {
+                    "set": 8729.0714660177,
+                    "get_notexpired": 13636.641764205,
+                    "get_expired": 14683.490098745
+                }
+            },
+            "100": {
+                "string": {
+                    "set": 12851.01068447,
+                    "get": 12127.07151091,
+                    "remove": 11111.271825219
+                },
+                "stringExpires": {
+                    "set": 13110.916125289,
+                    "get_notexpired": 13207.087680456,
+                    "get_expired": 13436.643401986
+                },
+                "longString": {
+                    "set": 8494.6186319256,
+                    "get": 11128.076468594,
+                    "remove": 11383.505968851
+                },
+                "longStringExpires": {
+                    "set": 8472.5256554086,
+                    "get_notexpired": 13265.076379195,
+                    "get_expired": 13305.836597452
+                }
+            },
+            "150": {
+                "string": {
+                    "set": 13001.804662695,
+                    "get": 11868.824864176,
+                    "remove": 11344.607479877
+                },
+                "stringExpires": {
+                    "set": 12450.566955467,
+                    "get_notexpired": 12801.285806234,
+                    "get_expired": 12865.706665358
+                },
+                "longString": {
+                    "set": 8356.3691279045,
+                    "get": 11131.214216519,
+                    "remove": 11243.864643118
+                },
+                "longStringExpires": {
+                    "set": 8141.1523552752,
+                    "get_notexpired": 12937.749709929,
+                    "get_expired": 12853.992416878
+                }
+            }
+        },
+        "Cache\\SQLite": {
+            "1": {
+                "string": {
+                    "set": 8.45994178925,
+                    "get": 11416.302844887,
+                    "remove": 5250.3026153224
+                },
+                "stringExpires": {
+                    "set": 8.7838032911778,
+                    "get_notexpired": 10542.531532301,
+                    "get_expired": 10382.583080636
+                },
+                "longString": {
+                    "set": 8.1804362822636,
+                    "get": 9731.2251313759,
+                    "remove": 1542.8221667687
+                },
+                "longStringExpires": {
+                    "set": 8.1782581622597,
+                    "get_notexpired": 10220.561968327,
+                    "get_expired": 9227.3156265606
+                }
+            },
+            "5": {
+                "string": {
+                    "set": 40.442368333069,
+                    "get": 23528.424472724,
+                    "remove": 18011.400381501
+                },
+                "stringExpires": {
+                    "set": 42.512943523262,
+                    "get_notexpired": 23213.272114657,
+                    "get_expired": 22678.214379563
+                },
+                "longString": {
+                    "set": 36.437762969342,
+                    "get": 17459.563684076,
+                    "remove": 11894.874401045
+                },
+                "longStringExpires": {
+                    "set": 33.971523494579,
+                    "get_notexpired": 18717.067889748,
+                    "get_expired": 20738.030514438
+                }
+            },
+            "10": {
+                "string": {
+                    "set": 489.05600213499,
+                    "get": 22962.846573424,
+                    "remove": 17679.842688625
+                },
+                "stringExpires": {
+                    "set": 82.733722681757,
+                    "get_notexpired": 23773.190500482,
+                    "get_expired": 23714.264390926
+                },
+                "longString": {
+                    "set": 81.469728110294,
+                    "get": 23303.553173143,
+                    "remove": 22947.933741413
+                },
+                "longStringExpires": {
+                    "set": 81.310391695626,
+                    "get_notexpired": 23366.010322861,
+                    "get_expired": 43340.690590151
+                }
+            },
+            "20": {
+                "string": {
+                    "set": 705.35297195936,
+                    "get": 23628.264318809,
+                    "remove": 15840.354097271
+                },
+                "stringExpires": {
+                    "set": 270.78002805166,
+                    "get_notexpired": 97178.888640463,
+                    "get_expired": 45998.901107337
+                },
+                "longString": {
+                    "set": 665.85937466017,
+                    "get": 22923.928026051,
+                    "remove": 18176.296429834
+                },
+                "longStringExpires": {
+                    "set": 264.07698327501,
+                    "get_notexpired": 91224.646704112,
+                    "get_expired": 73668.353094189
+                }
+            },
+            "50": {
+                "string": {
+                    "set": 1718.9360765073,
+                    "get": 25481.730182495,
+                    "remove": 17005.721195475
+                },
+                "stringExpires": {
+                    "set": 1179.3247714037,
+                    "get_notexpired": 125952.50307201,
+                    "get_expired": 26121.934881005
+                },
+                "longString": {
+                    "set": 2201.6801559932,
+                    "get": 25702.72619119,
+                    "remove": 18683.347955832
+                },
+                "longStringExpires": {
+                    "set": 1808.2728063561,
+                    "get_notexpired": 265088.80526549,
+                    "get_expired": 166814.64394376
+                }
+            },
+            "100": {
+                "string": {
+                    "set": 2604.6931578999,
+                    "get": 31594.767791522,
+                    "remove": 16821.587984786
+                },
+                "stringExpires": {
+                    "set": 3178.7100732099,
+                    "get_notexpired": 45287.660536036,
+                    "get_expired": 31635.248042268
+                },
+                "longString": {
+                    "set": 2600.6811517415,
+                    "get": 31196.535457083,
+                    "remove": 16319.880083645
+                },
+                "longStringExpires": {
+                    "set": 2936.1450557179,
+                    "get_notexpired": 201038.57609434,
+                    "get_expired": 31210.001596848
+                }
+            },
+            "150": {
+                "string": {
+                    "set": 3184.9847363924,
+                    "get": 44455.561651177,
+                    "remove": 16583.801117621
+                },
+                "stringExpires": {
+                    "set": 2930.9779836056,
+                    "get_notexpired": 45537.852740781,
+                    "get_expired": 41497.185934878
+                },
+                "longString": {
+                    "set": 3290.2423364757,
+                    "get": 43491.484727341,
+                    "remove": 15704.387322049
+                },
+                "longStringExpires": {
+                    "set": 3155.3956589898,
+                    "get_notexpired": 51184.321469237,
+                    "get_expired": 40742.402151012
+                }
+            }
+        },
+        "Cache\\APC": {
+            "1": {
+                "string": {
+                    "set": 102652.42010567,
+                    "get": 110589.85724506,
+                    "remove": 114232.68303617
+                },
+                "stringExpires": {
+                    "set": 108998.45115955,
+                    "get_notexpired": 112782.85093522,
+                    "get_expired": 80693.987252275
+                },
+                "longString": {
+                    "set": 98206.123023254,
+                    "get": 106484.48835022,
+                    "remove": 114820.51731627
+                },
+                "longStringExpires": {
+                    "set": 102152.84796793,
+                    "get_notexpired": 107987.8992289,
+                    "get_expired": 76690.235228509
+                }
+            },
+            "5": {
+                "string": {
+                    "set": 188195.91578204,
+                    "get": 211515.61424656,
+                    "remove": 217144.69458829
+                },
+                "stringExpires": {
+                    "set": 190266.01743208,
+                    "get_notexpired": 211703.51945472,
+                    "get_expired": 201761.94585629
+                },
+                "longString": {
+                    "set": 160948.76548978,
+                    "get": 201147.58079499,
+                    "remove": 216203.29744111
+                },
+                "longStringExpires": {
+                    "set": 161956.74670472,
+                    "get_notexpired": 205252.79889913,
+                    "get_expired": 185038.30641781
+                }
+            },
+            "10": {
+                "string": {
+                    "set": 193301.64942221,
+                    "get": 220494.89472842,
+                    "remove": 226729.18103906
+                },
+                "stringExpires": {
+                    "set": 192498.06603083,
+                    "get_notexpired": 220108.09272721,
+                    "get_expired": 213580.17049643
+                },
+                "longString": {
+                    "set": 169978.9139925,
+                    "get": 210929.81552806,
+                    "remove": 223267.50131919
+                },
+                "longStringExpires": {
+                    "set": 166885.44201808,
+                    "get_notexpired": 211704.27931768,
+                    "get_expired": 204547.42299548
+                }
+            },
+            "20": {
+                "string": {
+                    "set": 188376.28737203,
+                    "get": 233093.45361358,
+                    "remove": 226636.07990281
+                },
+                "stringExpires": {
+                    "set": 188750.23907081,
+                    "get_notexpired": 228843.74832695,
+                    "get_expired": 316315.64980611
+                },
+                "longString": {
+                    "set": 161617.01893185,
+                    "get": 223199.97530823,
+                    "remove": 228043.82321415
+                },
+                "longStringExpires": {
+                    "set": 153606.56278039,
+                    "get_notexpired": 231593.71335453,
+                    "get_expired": 291281.47789982
+                }
+            },
+            "50": {
+                "string": {
+                    "set": 494123.29332205,
+                    "get": 873736.32131783,
+                    "remove": 917253.82783821
+                },
+                "stringExpires": {
+                    "set": 703556.94892453,
+                    "get_notexpired": 729287.74697601,
+                    "get_expired": 902866.8357177
+                },
+                "longString": {
+                    "set": 162975.58218069,
+                    "get": 827428.22422587,
+                    "remove": 945556.44353167
+                },
+                "longStringExpires": {
+                    "set": 163035.7962151,
+                    "get_notexpired": 960961.9003397,
+                    "get_expired": 657830.97760965
+                }
+            },
+            "100": {
+                "string": {
+                    "set": 1254465.6174948,
+                    "get": 1903130.5583356,
+                    "remove": 1335760.743364
+                },
+                "stringExpires": {
+                    "set": 1253909.1011687,
+                    "get_notexpired": 2060103.6116736,
+                    "get_expired": 1936915.7982964
+                },
+                "longString": {
+                    "set": 160033.59673414,
+                    "get": 1422195.6987971,
+                    "remove": 1751294.6560296
+                },
+                "longStringExpires": {
+                    "set": 200853.34937234,
+                    "get_notexpired": 1558792.0051733,
+                    "get_expired": 1435190.2370339
+                }
+            },
+            "150": {
+                "string": {
+                    "set": 1361152.3977782,
+                    "get": 3001514.2450673,
+                    "remove": 2674588.5317739
+                },
+                "stringExpires": {
+                    "set": 1423266.798881,
+                    "get_notexpired": 2667412.1067114,
+                    "get_expired": 2316123.4587293
+                },
+                "longString": {
+                    "set": 241008.48477233,
+                    "get": 2329961.781175,
+                    "remove": 3256501.98567
+                },
+                "longStringExpires": {
+                    "set": 150502.6798348,
+                    "get_notexpired": 2014559.5358299,
+                    "get_expired": 2110379.3890373
+                }
+            }
+        },
+        "Cache\\Memcache": {
+            "1": {
+                "string": {
+                    "set": 23749.536149376,
+                    "get": 24496.258614096,
+                    "remove": 27351.235140469
+                },
+                "stringExpires": {
+                    "set": 23745.196390358,
+                    "get_notexpired": 24123.727231072,
+                    "get_expired": 24396.536157524
+                },
+                "longString": {
+                    "set": 20345.549028451,
+                    "get": 22078.088311216,
+                    "remove": 27245.489414702
+                },
+                "longStringExpires": {
+                    "set": 19948.347111805,
+                    "get_notexpired": 22607.499113637,
+                    "get_expired": 24216.349373754
+                }
+            },
+            "5": {
+                "string": {
+                    "set": 41984.839527132,
+                    "get": 42038.574835723,
+                    "remove": 49355.673259309
+                },
+                "stringExpires": {
+                    "set": 40605.003618269,
+                    "get_notexpired": 43697.80169835,
+                    "get_expired": 46323.468221052
+                },
+                "longString": {
+                    "set": 34446.188146061,
+                    "get": 34912.358518641,
+                    "remove": 47269.648728793
+                },
+                "longStringExpires": {
+                    "set": 31416.366073758,
+                    "get_notexpired": 37892.313766091,
+                    "get_expired": 45830.88547234
+                }
+            },
+            "10": {
+                "string": {
+                    "set": 38139.801638822,
+                    "get": 41415.191550774,
+                    "remove": 47583.819724234
+                },
+                "stringExpires": {
+                    "set": 39806.757294134,
+                    "get_notexpired": 42285.780344956,
+                    "get_expired": 48657.11344093
+                },
+                "longString": {
+                    "set": 33173.463858165,
+                    "get": 34715.862392226,
+                    "remove": 47985.516503473
+                },
+                "longStringExpires": {
+                    "set": 33045.209724178,
+                    "get_notexpired": 35861.165617158,
+                    "get_expired": 48611.848308183
+                }
+            },
+            "20": {
+                "string": {
+                    "set": 38770.346254921,
+                    "get": 41922.90802067,
+                    "remove": 47285.908586881
+                },
+                "stringExpires": {
+                    "set": 39306.648733488,
+                    "get_notexpired": 43197.984652129,
+                    "get_expired": 50412.713660074
+                },
+                "longString": {
+                    "set": 35001.908942859,
+                    "get": 35330.056011613,
+                    "remove": 48033.72292941
+                },
+                "longStringExpires": {
+                    "set": 35285.689047423,
+                    "get_notexpired": 40660.116748798,
+                    "get_expired": 51595.524222014
+                }
+            },
+            "50": {
+                "string": {
+                    "set": 45303.453894961,
+                    "get": 44325.899906958,
+                    "remove": 59556.609466741
+                },
+                "stringExpires": {
+                    "set": 41484.030267498,
+                    "get_notexpired": 51964.540137654,
+                    "get_expired": 66577.775745985
+                },
+                "longString": {
+                    "set": 32683.085259111,
+                    "get": 31022.179965996,
+                    "remove": 61668.958051485
+                },
+                "longStringExpires": {
+                    "set": 38401.865715644,
+                    "get_notexpired": 60816.109271986,
+                    "get_expired": 83771.380226194
+                }
+            },
+            "100": {
+                "string": {
+                    "set": 45856.08911661,
+                    "get": 54631.10622642,
+                    "remove": 71003.063964739
+                },
+                "stringExpires": {
+                    "set": 32121.320033896,
+                    "get_notexpired": 61262.759776391,
+                    "get_expired": 73867.179038317
+                },
+                "longString": {
+                    "set": 44414.794370383,
+                    "get": 51666.741397754,
+                    "remove": 195011.1632777
+                },
+                "longStringExpires": {
+                    "set": 26520.5918355,
+                    "get_notexpired": 67805.568933009,
+                    "get_expired": 172044.78911069
+                }
+            },
+            "150": {
+                "string": {
+                    "set": 173345.90098757,
+                    "get": 44656.227335466,
+                    "remove": 132706.94961931
+                },
+                "stringExpires": {
+                    "set": 38574.621737367,
+                    "get_notexpired": 248757.03643546,
+                    "get_expired": 286690.17376968
+                },
+                "longString": {
+                    "set": 26119.667231908,
+                    "get": 48882.911031703,
+                    "remove": 192928.55108004
+                },
+                "longStringExpires": {
+                    "set": 31909.056397743,
+                    "get_notexpired": 107607.17862831,
+                    "get_expired": 177198.5561519
+                }
+            }
+        },
+        "Cache\\Memcached": {
+            "1": {
+                "string": {
+                    "set": 26333.283804174,
+                    "get": 29229.112764612,
+                    "remove": 32586.580682692
+                },
+                "stringExpires": {
+                    "set": 26875.331592181,
+                    "get_notexpired": 28818.948493814,
+                    "get_expired": 27064.949881204
+                },
+                "longString": {
+                    "set": 17020.045298012,
+                    "get": 23228.930715902,
+                    "remove": 32315.621690855
+                },
+                "longStringExpires": {
+                    "set": 17062.161683294,
+                    "get_notexpired": 23181.289279016,
+                    "get_expired": 27222.973353045
+                }
+            },
+            "5": {
+                "string": {
+                    "set": 48480.332764735,
+                    "get": 55336.287681517,
+                    "remove": 61770.038400978
+                },
+                "stringExpires": {
+                    "set": 47125.634532025,
+                    "get_notexpired": 54483.120095137,
+                    "get_expired": 58883.891389978
+                },
+                "longString": {
+                    "set": 30131.277792545,
+                    "get": 42906.799824533,
+                    "remove": 60588.338079802
+                },
+                "longStringExpires": {
+                    "set": 31388.70548748,
+                    "get_notexpired": 43391.244480147,
+                    "get_expired": 58669.471705292
+                }
+            },
+            "10": {
+                "string": {
+                    "set": 42939.219795919,
+                    "get": 53958.618076,
+                    "remove": 62017.040273016
+                },
+                "stringExpires": {
+                    "set": 46591.848144245,
+                    "get_notexpired": 56209.770272283,
+                    "get_expired": 58982.432914304
+                },
+                "longString": {
+                    "set": 30568.578813516,
+                    "get": 43299.56910775,
+                    "remove": 58595.640651027
+                },
+                "longStringExpires": {
+                    "set": 31457.570982532,
+                    "get_notexpired": 44145.882761567,
+                    "get_expired": 59073.262061208
+                }
+            },
+            "20": {
+                "string": {
+                    "set": 43830.375990135,
+                    "get": 49916.221907053,
+                    "remove": 62557.222717633
+                },
+                "stringExpires": {
+                    "set": 48438.916705307,
+                    "get_notexpired": 53850.935903543,
+                    "get_expired": 63640.294830155
+                },
+                "longString": {
+                    "set": 30353.39112376,
+                    "get": 41786.394745071,
+                    "remove": 60798.230066872
+                },
+                "longStringExpires": {
+                    "set": 30451.139337479,
+                    "get_notexpired": 48058.470797257,
+                    "get_expired": 61941.258424006
+                }
+            },
+            "50": {
+                "string": {
+                    "set": 49394.080194086,
+                    "get": 61520.946004468,
+                    "remove": 82576.361109353
+                },
+                "stringExpires": {
+                    "set": 90055.31322907,
+                    "get_notexpired": 90722.321423293,
+                    "get_expired": 98501.911888277
+                },
+                "longString": {
+                    "set": 30292.161673212,
+                    "get": 43446.338338542,
+                    "remove": 71989.548026284
+                },
+                "longStringExpires": {
+                    "set": 29507.485826904,
+                    "get_notexpired": 69733.220766292,
+                    "get_expired": 100232.95183527
+                }
+            },
+            "100": {
+                "string": {
+                    "set": 85791.448006204,
+                    "get": 123245.43354257,
+                    "remove": 303103.73360023
+                },
+                "stringExpires": {
+                    "set": 80866.040671861,
+                    "get_notexpired": 323869.34818875,
+                    "get_expired": 229770.73894918
+                },
+                "longString": {
+                    "set": 29722.747751778,
+                    "get": 82459.027576948,
+                    "remove": 283278.52554556
+                },
+                "longStringExpires": {
+                    "set": 31651.565220213,
+                    "get_notexpired": 372705.93420538,
+                    "get_expired": 239024.0274681
+                }
+            },
+            "150": {
+                "string": {
+                    "set": 181912.32640646,
+                    "get": 388945.74040696,
+                    "remove": 472835.78320574
+                },
+                "stringExpires": {
+                    "set": 68251.310862297,
+                    "get_notexpired": 403952.29457937,
+                    "get_expired": 382532.58222699
+                },
+                "longString": {
+                    "set": 82610.453436935,
+                    "get": 147108.85757476,
+                    "remove": 319341.20284082
+                },
+                "longStringExpires": {
+                    "set": 76683.822885031,
+                    "get_notexpired": 274159.97476046,
+                    "get_expired": 480207.36493573
+                }
+            }
+        },
+        "Cache\\Redis": {
+            "1": {
+                "string": {
+                    "set": 26109.062624217,
+                    "get": 27285.570878071,
+                    "remove": 28538.32753904
+                },
+                "stringExpires": {
+                    "set": 24791.79840145,
+                    "get_notexpired": 27166.021976788,
+                    "get_expired": 24655.649304589
+                },
+                "longString": {
+                    "set": 22452.582424224,
+                    "get": 23288.899162168,
+                    "remove": 28355.538529143
+                },
+                "longStringExpires": {
+                    "set": 21933.193033668,
+                    "get_notexpired": 23814.314049086,
+                    "get_expired": 25250.666238562
+                }
+            },
+            "5": {
+                "string": {
+                    "set": 51710.267366983,
+                    "get": 54952.645475452,
+                    "remove": 55431.714127662
+                },
+                "stringExpires": {
+                    "set": 49321.687798941,
+                    "get_notexpired": 55019.820916511,
+                    "get_expired": 54282.19779082
+                },
+                "longString": {
+                    "set": 45907.154338279,
+                    "get": 47957.185820983,
+                    "remove": 54658.285859122
+                },
+                "longStringExpires": {
+                    "set": 45813.777325572,
+                    "get_notexpired": 49193.425283811,
+                    "get_expired": 55540.159749147
+                }
+            },
+            "10": {
+                "string": {
+                    "set": 53460.44930799,
+                    "get": 55308.097295988,
+                    "remove": 56145.591360042
+                },
+                "stringExpires": {
+                    "set": 51252.097599908,
+                    "get_notexpired": 53931.683403295,
+                    "get_expired": 57553.688771552
+                },
+                "longString": {
+                    "set": 46335.603417089,
+                    "get": 48372.102110667,
+                    "remove": 56334.548830877
+                },
+                "longStringExpires": {
+                    "set": 43210.439219837,
+                    "get_notexpired": 48626.792649701,
+                    "get_expired": 52393.415732446
+                }
+            },
+            "20": {
+                "string": {
+                    "set": 51958.87884814,
+                    "get": 50818.882505838,
+                    "remove": 53662.630580479
+                },
+                "stringExpires": {
+                    "set": 47139.43697968,
+                    "get_notexpired": 51024.230495048,
+                    "get_expired": 53963.279581963
+                },
+                "longString": {
+                    "set": 44715.576202702,
+                    "get": 46357.893416349,
+                    "remove": 53975.258628788
+                },
+                "longStringExpires": {
+                    "set": 42122.625601992,
+                    "get_notexpired": 46059.694264424,
+                    "get_expired": 53889.058770021
+                }
+            },
+            "50": {
+                "string": {
+                    "set": 91388.639498493,
+                    "get": 85632.232543464,
+                    "remove": 87329.572368044
+                },
+                "stringExpires": {
+                    "set": 75054.56898406,
+                    "get_notexpired": 80275.42004696,
+                    "get_expired": 82935.440803336
+                },
+                "longString": {
+                    "set": 62884.243506206,
+                    "get": 81140.909916903,
+                    "remove": 110042.29788605
+                },
+                "longStringExpires": {
+                    "set": 63423.680913799,
+                    "get_notexpired": 74994.966725556,
+                    "get_expired": 79283.573422534
+                }
+            },
+            "100": {
+                "string": {
+                    "set": 186139.34853287,
+                    "get": 204274.85005589,
+                    "remove": 189694.25212446
+                },
+                "stringExpires": {
+                    "set": 162379.72421451,
+                    "get_notexpired": 198974.64798888,
+                    "get_expired": 199835.15033242
+                },
+                "longString": {
+                    "set": 134486.59359792,
+                    "get": 142683.78475837,
+                    "remove": 154417.60085796
+                },
+                "longStringExpires": {
+                    "set": 133145.15325185,
+                    "get_notexpired": 196560.25735624,
+                    "get_expired": 203446.94865035
+                }
+            },
+            "150": {
+                "string": {
+                    "set": 301771.42962666,
+                    "get": 270972.56854633,
+                    "remove": 268686.97566917
+                },
+                "stringExpires": {
+                    "set": 229383.37133021,
+                    "get_notexpired": 217848.50117521,
+                    "get_expired": 307399.02886341
+                },
+                "longString": {
+                    "set": 195094.55399737,
+                    "get": 214030.118533,
+                    "remove": 270542.77499748
+                },
+                "longStringExpires": {
+                    "set": 162020.81009169,
+                    "get_notexpired": 256283.75166352,
+                    "get_expired": 341135.30014586
+                }
+            }
+        },
+        "Cache\\SharedMemory": {
+            "1": {
+                "string": {
+                    "set": 93046.105859693,
+                    "get": 81139.448534641,
+                    "remove": 109687.27732055
+                },
+                "stringExpires": {
+                    "set": 87930.164107639,
+                    "get_notexpired": 75685.823740962,
+                    "get_expired": 60344.575064851
+                },
+                "longString": {
+                    "set": 82288.290048141,
+                    "get": 78984.38840802,
+                    "remove": 109608.50783102
+                },
+                "longStringExpires": {
+                    "set": 81675.29316462,
+                    "get_notexpired": 79054.580272091,
+                    "get_expired": 59922.052688725
+                }
+            },
+            "5": {
+                "string": {
+                    "set": 181058.77181797,
+                    "get": 159203.57025051,
+                    "remove": 206123.59665395
+                },
+                "stringExpires": {
+                    "set": 177974.21130975,
+                    "get_notexpired": 155113.53088104,
+                    "get_expired": 138725.20970993
+                },
+                "longString": {
+                    "set": 161942.54632845,
+                    "get": 163091.35508085,
+                    "remove": 206156.47077696
+                },
+                "longStringExpires": {
+                    "set": 157666.37596608,
+                    "get_notexpired": 153813.29578126,
+                    "get_expired": 150133.19149149
+                }
+            },
+            "10": {
+                "string": {
+                    "set": 182910.05267527,
+                    "get": 158595.08069681,
+                    "remove": 210253.24543237
+                },
+                "stringExpires": {
+                    "set": 183492.22428702,
+                    "get_notexpired": 160926.35294569,
+                    "get_expired": 155467.62314375
+                },
+                "longString": {
+                    "set": 167187.16916199,
+                    "get": 171291.33752433,
+                    "remove": 217425.46952514
+                },
+                "longStringExpires": {
+                    "set": 165434.75078776,
+                    "get_notexpired": 169605.78700844,
+                    "get_expired": 166384.51316024
+                }
+            },
+            "20": {
+                "string": {
+                    "set": 201748.47226532,
+                    "get": 175065.77360191,
+                    "remove": 233914.34024095
+                },
+                "stringExpires": {
+                    "set": 193753.82079128,
+                    "get_notexpired": 159291.97305354,
+                    "get_expired": 195076.25136804
+                },
+                "longString": {
+                    "set": 175448.04841788,
+                    "get": 177486.73097357,
+                    "remove": 232628.97339102
+                },
+                "longStringExpires": {
+                    "set": 171158.57519998,
+                    "get_notexpired": 171924.3479074,
+                    "get_expired": 238345.73680304
+                }
+            },
+            "50": {
+                "string": {
+                    "set": 715039.34363441,
+                    "get": 632239.62265336,
+                    "remove": 985560.1079949
+                },
+                "stringExpires": {
+                    "set": 900893.3103747,
+                    "get_notexpired": 554137.7863135,
+                    "get_expired": 541772.81463774
+                },
+                "longString": {
+                    "set": 670851.9634273,
+                    "get": 642516.20152468,
+                    "remove": 811413.91297955
+                },
+                "longStringExpires": {
+                    "set": 633889.94932573,
+                    "get_notexpired": 597597.8138111,
+                    "get_expired": 616195.02907395
+                }
+            },
+            "100": {
+                "string": {
+                    "set": 1178822.0877748,
+                    "get": 1099420.0547049,
+                    "remove": 1688462.4726091
+                },
+                "stringExpires": {
+                    "set": 1677537.0709222,
+                    "get_notexpired": 1147149.8714883,
+                    "get_expired": 1268458.5293419
+                },
+                "longString": {
+                    "set": 1233710.1422703,
+                    "get": 1211224.8203196,
+                    "remove": 1585778.181062
+                },
+                "longStringExpires": {
+                    "set": 1167810.9586409,
+                    "get_notexpired": 1338522.5779532,
+                    "get_expired": 1413546.6867977
+                }
+            },
+            "150": {
+                "string": {
+                    "set": 2495653.8468404,
+                    "get": 1712187.9432986,
+                    "remove": 2327104.86748
+                },
+                "stringExpires": {
+                    "set": 1741417.2243233,
+                    "get_notexpired": 1592586.8611192,
+                    "get_expired": 2061344.1615318
+                },
+                "longString": {
+                    "set": 1670569.3358169,
+                    "get": 1782203.8975626,
+                    "remove": 2626301.3933082
+                },
+                "longStringExpires": {
+                    "set": 1988613.4764551,
+                    "get_notexpired": 1606184.2931616,
+                    "get_expired": 1763633.2716002
+                }
+            }
+        }
+    }
+}
